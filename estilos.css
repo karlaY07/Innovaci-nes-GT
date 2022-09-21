@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    header{
+    
+    display: flex;
+    justify-content: space-between;
+    background: orange;
+    align-items: center;
+    
+    padding: 10px;
+    }
+    #logo-empresa{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    
+    text-decoration: none;
+    color: ehite;
+    }
+    #logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    }
+    #empresa{
+    font-size: 40px;
+    }
+    /*Aplicamos estilos a la barra de navegacíon*/
+    nav .link-nav{
+    padding-right: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #D0F;
+    font-weight: bold; /*aplicar negrita*/
+    }
+    nav .link-nav:hover{
+    color: blue;
+    }
+
+    body{
+        background: linear-gradient(90deg,white,#D0F );
+    }
+
+    nav .link-nav:hover{
+        background: linear-gradient(100deg,white,#D0F );
+        text-decoration: none;
+        border-radius: 100px;
+        padding: 20px;
+    }
